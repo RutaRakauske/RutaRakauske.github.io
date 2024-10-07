@@ -15,12 +15,23 @@ export default function RecordRow({ record, isTimeline }) {
       onClick={toggleDescription}
     >
       {isTimeline && <div className="bullet"></div>}
-      <div className="nameContainer">
-        <h5>{record.name}</h5>
-        {record.company ? <p>{record.company}</p> : <p>{record.skills}</p>}
-        <p>{record.date}</p>
+      <div className="shortDescriptionContainer">
+        <div className="nameContainer">
+          <h5>{record.name}</h5>
+          {record.company ? <p>{record.company}</p> : <p>{record.skills}</p>}
+          <p>{record.date}</p>
+        </div>
+        {record.keyPoints && (
+          <div className="keyPointsContainer">
+            <ul className="keyPoints">
+              {record.keyPoints?.map((point, index) => (
+                <li key={index}>{point}</li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
-      {isOpen && (
+      {isOpen && record.description && (
         <div className="descriptionContainer">
           <p>{record.description}</p>
         </div>

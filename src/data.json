@@ -2,31 +2,47 @@
   "workExperience": [
     {
       "id": "ex1",
-      "name": "Tech lead in Power apps",
+      "name": "Tech lead & system owner in MS Power platform",
       "company": "AVIA SOLUTIONS GROUP (ASG) PLC",
       "date": "2023/02 - 2024/05",
-      "description": "Understanding technical requirements and translating them into technical implementation"
+      "description": "Understanding technical requirements and translating them into technical implementation",
+      "keyPoints": [
+        "Working with new API, SI component, investigating possibility to use it in automated solution;",
+        "Preparing architecture and solution design document for new process candidate, evaluating any possibilities to simplify process and ;"
+      ]
     },
     {
       "id": "ex2",
       "name": "Senior Software Engineer in Robotic Process Automation",
       "company": "Danske Bank AB",
       "date": "2016/11 - 2023/02",
-      "description": "Investigation of API, SI component usage, preparing architecture and solution design document, developing reusable components and performing peer code review, testing (End-to-end) and moving solution to production environment. Migration between development software versions (Blue Prism), tools itself (Blue Prism → UiPath) and between interacting systems (API, SI components, main company UI system version changes). Part-time scrum master (20% of time) of development team for a year, responsible for hosting agile ceremonies, collaboration with product owner, helping colleagues to be motivated and productive."
+      "description": "Investigation of API, SI component usage, preparing architecture and solution design document, developing reusable components and performing peer code review, testing (End-to-end) and moving solution to production environment. Migration between development software versions (Blue Prism), tools itself (Blue Prism → UiPath) and between interacting systems (API, SI components, main company UI system version changes). Part-time scrum master (20% of time) of development team for a year, responsible for hosting agile ceremonies, collaboration with product owner, helping colleagues to be motivated and productive.",
+      "keyPoints": [
+        "Working with new API, SI component, investigating possibility to use it in automated solution;",
+        "Preparing architecture and solution design document for new process candidate, evaluating any possibilities to simplify process and ;"
+      ]
     },
     {
       "id": "ex3",
       "name": "Junior Analyst/Developer in Robotic Process Automation",
       "company": "Nordea Bank AB",
       "date": "2016/02 - 2016/11",
-      "description": "Simplifying and designing process solution, developing new components and processes within BluePrism tool, testing them and assuring that current solution is robust, preparing process maintenance documentation and solving issues that arise day to day."
+      "description": "Simplifying and designing process solution, developing new components and processes within BluePrism tool, testing them and assuring that current solution is robust, preparing process maintenance documentation and solving issues that arise day to day.",
+      "keyPoints": [
+        "Working with new API, SI component, investigating possibility to use it in automated solution;",
+        "Preparing architecture and solution design document for new process candidate, evaluating any possibilities to simplify process and ;"
+      ]
     },
     {
       "id": "ex4",
       "name": "Assistant in EURO and SEPA projects",
       "company": "Nordea Bank AB",
       "date": "2014/07 - 2016/02",
-      "description": "Testing cash management products and services in various banking systems, participation in Lithuanian Banking Association meetings, creating test cases for new product, handling product migration technical process (direct debit service migration to e-invoice service)."
+      "description": "Testing cash management products and services in various banking systems, participation in Lithuanian Banking Association meetings, creating test cases for new product, handling product migration technical process (direct debit service migration to e-invoice service).",
+      "keyPoints": [
+        "Working with new API, SI component, investigating possibility to use it in automated solution;",
+        "Preparing architecture and solution design document for new process candidate, evaluating any possibilities to simplify process and ;"
+      ]
     }
   ],
   "education": [
