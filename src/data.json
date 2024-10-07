@@ -91,6 +91,14 @@
       "company": "",
       "date": "",
       "description": ""
+    },
+    {
+      "id": "sk3",
+      "name": "Stack",
+      "skills": "CSS/SCSS, HTML, JavaScript, React, Next.js, SQL, C# (basics), TypeScript(basics), Git",
+      "company": "",
+      "date": "",
+      "description": ""
     }
   ]
 }
