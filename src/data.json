@@ -2,13 +2,15 @@
   "workExperience": [
     {
       "id": "ex1",
-      "name": "Tech lead & system owner in MS Power platform",
+      "name": "Tech lead & system/app owner in MS Power platform",
       "company": "AVIA SOLUTIONS GROUP (ASG) PLC",
       "date": "2023/02 - 2024/05",
-      "description": "Understanding technical requirements and translating them into technical implementation",
+      "description": "",
       "keyPoints": [
-        "Working with new API, SI component, investigating possibility to use it in automated solution;",
-        "Preparing architecture and solution design document for new process candidate, evaluating any possibilities to simplify process and ;"
+        "Owning KYC process system/app: solving incidents, developing change requests (from requirements to go-live), creating technical/maintenance documentation, managing access rights and license for new companies/users;",
+        "Updating and developing new API requests",
+        "Creating architecture for web form (for external users), developing, testing and deploying to PROD;",
+        "Meeting with group companies respresentatives and designing possible solutions, interacting with other teams on merged solutions"
       ]
     },
     {
@@ -16,10 +18,14 @@
       "name": "Senior Software Engineer in Robotic Process Automation",
       "company": "Danske Bank AB",
       "date": "2016/11 - 2023/02",
-      "description": "Investigation of API, SI component usage, preparing architecture and solution design document, developing reusable components and performing peer code review, testing (End-to-end) and moving solution to production environment. Migration between development software versions (Blue Prism), tools itself (Blue Prism → UiPath) and between interacting systems (API, SI components, main company UI system version changes). Part-time scrum master (20% of time) of development team for a year, responsible for hosting agile ceremonies, collaboration with product owner, helping colleagues to be motivated and productive.",
+      "description": "",
       "keyPoints": [
-        "Working with new API, SI component, investigating possibility to use it in automated solution;",
-        "Preparing architecture and solution design document for new process candidate, evaluating any possibilities to simplify process and ;"
+        "Investigation of API, SI component usage;",
+        "Preparing architecture and solution design document;",
+        "Developing reusable components and performing peer code review;",
+        "Testing (End-to-end) and moving solution to production environment;",
+        "Migration between development software versions (Blue Prism), tools itself (Blue Prism → UiPath) and between interacting systems (API, SI components, main company UI system version changes);",
+        "Part-time scrum master (20% of time) of development team for a year, responsible for hosting agile ceremonies, collaboration with product owner, helping colleagues to be motivated and productive."
       ]
     },
     {
@@ -27,10 +33,12 @@
       "name": "Junior Analyst/Developer in Robotic Process Automation",
       "company": "Nordea Bank AB",
       "date": "2016/02 - 2016/11",
-      "description": "Simplifying and designing process solution, developing new components and processes within BluePrism tool, testing them and assuring that current solution is robust, preparing process maintenance documentation and solving issues that arise day to day.",
+      "description": "",
       "keyPoints": [
-        "Working with new API, SI component, investigating possibility to use it in automated solution;",
-        "Preparing architecture and solution design document for new process candidate, evaluating any possibilities to simplify process and ;"
+        "Simplifying and designing process solution;",
+        "Analysing current business processes and gathering requirements;",
+        "Developing new components and processes within BluePrism tool, testing them and assuring that current solution is robust;",
+        "Preparing process maintenance documentation and solving issues that arise day to day."
       ]
     },
     {
@@ -38,10 +46,13 @@
       "name": "Assistant in EURO and SEPA projects",
       "company": "Nordea Bank AB",
       "date": "2014/07 - 2016/02",
-      "description": "Testing cash management products and services in various banking systems, participation in Lithuanian Banking Association meetings, creating test cases for new product, handling product migration technical process (direct debit service migration to e-invoice service).",
+      "description": "",
       "keyPoints": [
-        "Working with new API, SI component, investigating possibility to use it in automated solution;",
-        "Preparing architecture and solution design document for new process candidate, evaluating any possibilities to simplify process and ;"
+        "Testing cash management products and services in various banking systems;",
+        "Participation in Lithuanian Banking Association meetings;",
+        "Creating test cases for new product and verifying/testing it in banking systems;",
+        "Handling product migration technical process (direct debit service migration to e-invoice service);",
+        "Daily maintenance tasks (incidents handling, new system fixes verification, communicating with corporate customers etc.)."
       ]
     }
   ],
@@ -51,51 +62,70 @@
       "name": "Front-end trainings",
       "company": "Baltic Institute of Technologies, Vilnius(Lithuania)",
       "date": "2022/01 - 2022/08",
-      "description": "Main modules: HTML, CSS, Javascript, Node.js, basics for databases, React"
+      "description": "",
+      "keyPoints": [
+        "HTML, CSS, Javascript",
+        "Node.js",
+        "basics for databases and API",
+        "React"
+      ]
     },
     {
       "id": "ed2",
       "name": "Scrum Master trainings and certification(CSM)",
       "company": "ScrumAlliance, Vilnius(online)",
       "date": "2019/09",
-      "description": "Agile methodology and scrum master role in it"
+      "description": "",
+      "keyPoints": ["Agile methodology", "Scrum master responsibilities"]
     },
     {
       "id": "ed3",
       "name": "BluePrism trainings",
       "company": "Ernst&Young consultant, Riga (Latvia)",
       "date": "2016/06 - 2016/09",
-      "description": "BluePrism software trainings, related documentation creation and preparing for certification."
+      "description": "",
+      "keyPoints": [
+        "BluePrism software trainings",
+        "Solution architecture/design documentation"
+      ]
     },
     {
       "id": "ed4",
       "name": "BSc in Economics",
       "company": "Vilnius University, Kaunas(Lithuania)",
       "date": "2010/09 - 2014/06",
-      "description": "Major field course units: Higher Mathematics, Econometrics, Economic Analysis, Financial Accounting, Corporate Finance, Informatics, Macro & Micro Economics, Monetary Policy, Transport Economics, Management."
+      "description": "",
+      "keyPoints": [
+        "Higher Mathematics",
+        "Econometrics",
+        "Informatics",
+        "Financial Accounting",
+        "Corporate Finance",
+        "Macro & Micro Economics"
+      ]
     }
   ],
   "skills": [
     {
       "id": "sk1",
-      "name": "Personal skills",
-      "skills": "Responsible, punctual, ownership, willing to learn. Gallup first 4 strengths: Harmony, Responsibility, Individualization, Empathy",
+      "name": "Stack",
+      "skills": "CSS/SCSS, HTML, JavaScript, React, Node.js, SQL, C# (basics), TypeScript(basics), Git",
       "company": "",
       "date": "",
       "description": ""
     },
     {
       "id": "sk2",
-      "name": "Technical skills",
-      "skills": "Visual Studio (2019 and Code), version control tools (Github, Bitbucket, Azure DevOps), Soap UI, Postman, Microsoft SQL Server Management Studio 17, BluePrism, UiPath, Atlassian products (Confluence, Jira), DaVinci Resolve, MS Office (Word, Excel, Outlook).",
+      "name": "Tools",
+      "skills": "Visual Studio (2019 and Code), version control tools (Github, Bitbucket, Azure DevOps), Soap UI, Postman, Microsoft SQL Server Management Studio 17, BluePrism, UiPath, Atlassian products (Confluence, Jira), MS Power Platform (Power Apps, Power Pages, Power Automate), MS Office (Word, Excel, Outlook).",
       "company": "",
       "date": "",
       "description": ""
     },
     {
       "id": "sk3",
-      "name": "Stack",
-      "skills": "CSS/SCSS, HTML, JavaScript, React, Next.js, SQL, C# (basics), TypeScript(basics), Git",
+      "name": "Soft skills",
+      "skills": "Responsible, detailed, punctual, ownership, willing to learn. Gallup first 4 strengths: Harmony, Responsibility, Individualization, Empathy",
       "company": "",
       "date": "",
       "description": ""

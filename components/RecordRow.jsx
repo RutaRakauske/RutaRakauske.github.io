@@ -1,19 +1,8 @@
 import { useState } from "react";
 
 export default function RecordRow({ record, isTimeline }) {
-  // State to track if the description is visible
-  const [isOpen, setIsOpen] = useState(false);
-
-  // Toggle the description visibility
-  const toggleDescription = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
-    <div
-      className={`rowContainer ${isTimeline ? "timelineRow" : ""}`}
-      onClick={toggleDescription}
-    >
+    <div className={`rowContainer ${isTimeline ? "timelineRow" : ""}`}>
       {isTimeline && <div className="bullet"></div>}
       <div className="shortDescriptionContainer">
         <div className="nameContainer">
@@ -31,11 +20,6 @@ export default function RecordRow({ record, isTimeline }) {
           </div>
         )}
       </div>
-      {isOpen && record.description && (
-        <div className="descriptionContainer">
-          <p>{record.description}</p>
-        </div>
-      )}
     </div>
   );
 }

@@ -11,10 +11,13 @@ export default function Header() {
         <h1>Rūta Rakauskė</h1>
         <h3>Front-end developer (React)</h3>
         <p>
-          For more than 6 years I'm working as Software Engineer in RPA(Robotic
-          Process Automation), I like to create something that makes other
-          people life easier, for example automating boring and repeptitive
-          tasks for colleagues.
+          I'm responsible and detailed-oriented person, I like challenges in my
+          life, as they push me to <strong>grow</strong> every day. I believe
+          that person can learn everything, if he/she have{" "}
+          <strong>persistance</strong>(can-do attidute) and{" "}
+          <strong>motivation</strong>. I love working together with team in
+          office, it gives me additional motivation. While my personal
+          satisfaction in work - <strong>create real value</strong>.
         </p>
         <div className="logoButtons">
           <a
