@@ -17,7 +17,8 @@ export default function Header() {
           <strong>persistance</strong>(can-do attidute) and{" "}
           <strong>motivation</strong>. I love working together with team in
           office, it gives me additional motivation. While my personal
-          satisfaction in work - <strong>create real value</strong>.
+          satisfaction in work - <strong>create real value</strong> ensuring
+          high-quality.
         </p>
         <div className="logoButtons">
           <a
