@@ -1,5 +1,6 @@
 import snowFunPic from "./assets/snow-fun.jpg";
 import resumeGrid from "./assets/resume-grid.jpg";
+import timerGame from "./assets/timer-game.png";
 
 const resumeData = {
   workExperience: [
@@ -151,6 +152,25 @@ const resumeData = {
     },
     {
       id: "po2",
+      name: "Timer game",
+      skills: "",
+      company: "",
+      date: "",
+      keyPoints: [
+        "Stack: React+Vite, CSS, Javascript;",
+        "useState manages remaining tim in the timer;",
+        "useRef used to maintain mutable values that don’t trigger re-renders, such as for the timer interval;",
+        "Reusable components like TimerChallenge, ResulModal are easy maintainable;",
+        "Handling user interactions like starting, stopping timer;",
+        "Using React Portal for the ResultModal component allows rendering modal dialogs outside of the main DOM hierarchy;",
+        "Responsive layout using CSS Flexbox.",
+      ],
+      image: timerGame,
+      url: "https://rutarakauske.github.io/timer-game/",
+      gitHub: "https://github.com/RutaRakauske/timer-game",
+    },
+    {
+      id: "po3",
       name: "Resume page using Grid",
       skills: "",
       company: "",
