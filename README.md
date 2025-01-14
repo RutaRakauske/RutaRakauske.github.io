@@ -1,25 +1,27 @@
-# My personal page(Resume) in React + Vite
+# My personal page(portfolio) in React + Vite
 
-This project is a personal resume webpage built using React and Vite. It showcases my experience, skills, and education.
+This project is a personal portfolio webpage built using React and Vite. It showcases my experience, skills, and projects.
 
 ## Project Overview
 
-This is a responsive resume webpage where I highlight my experience, skills, and education. The design is adaptive for various screen sizes using CSS media queries, and the content is organized through different sections like Experience, Skills, Education. It is built with React and bundled using Vite for optimal performance and fast development.
+This is a responsive portfolio webpage where I highlight my experience, skills, and projects. The design is adaptive for various screen sizes using Tailwind css, and the content is organized through different sections like Experience, Works, About. It is built with React and bundled using Vite for optimal performance and fast development.
 
 ## Features
 
 - Responsive design for all screen sizes
 - Clean and modern UI
-- Separate JSON data files for easy content management
-- Dynamic sections for experience, skills, and education
+- Separate js data file for easy content management
+- Dynamic sections for experience, skills, and projects
 - Easy to customize
+- Using 3D model for user interaction
 
 ## Tech Stack
 
 - React: A JavaScript library for building user interfaces.
 - Vite: A modern build tool that provides fast development and optimized production builds.
-- CSS: For styling and responsive design.
+- Tailwind CSS: For styling and responsive design.
 - JavaScript/JSX: For the dynamic behavior and layout of components.
+- Three: For 3D model and animation
 
 ## Installation
 
@@ -34,6 +36,6 @@ To run this project locally, follow these steps:
 
 ## Customization
 
-- Content: You can update the content like experience, skills, and education by editing the data.json files located in the src/data folder.
-- Styling: The styling is done using CSS and can be modified in the src directory file index.css. Media queries are already in place to make the page responsive across different devices.
+- Content: You can update the content like experience, skills, and projects by editing the js file located in the src/constants folder.
+- Styling: The styling is done using Tailwind CSS and can be modified. Page is already responsive across different devices.
 - Components: The webpage is structured using reusable React components. If you want to add new sections or customize existing ones, modify the components in the components directory.

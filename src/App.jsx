@@ -1,13 +1,20 @@
-import Bodyinfo from "../components/BodyInfo";
-import Header from "../components/Header";
+import { BrowserRouter } from "react-router-dom";
+import { About, Experience, Hero, Navbar, Works } from "./components";
 
-function App() {
+const App = () => {
   return (
-    <div className="container">
-      <Header />
-      <Bodyinfo />
-    </div>
+    <BrowserRouter>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          <Hero />
+        </div>
+        <About />
+        <Experience />
+        <Works />
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
